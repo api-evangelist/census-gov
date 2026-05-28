@@ -1,0 +1,32 @@
+aid: census-gov
+name: Census.gov
+description: "The US Census Bureau provides various APIs and data sets on demographics and businesses"
+url: https://www.census.gov/data/developers/data-sets.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Government"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Government
+  - Public APIs
+apis:
+  - name: Census.gov
+    description: "The US Census Bureau provides various APIs and data sets on demographics and businesses"
+    humanURL: https://www.census.gov/data/developers/data-sets.html
+    baseURL: https://www.census.gov/data/developers/data-sets.html
+    tags:
+      - Government
+    properties:
+      - type: Documentation
+        url: https://www.census.gov/data/developers/data-sets.html
+common:
+  - type: Website
+    url: https://www.census.gov/data/developers/data-sets.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
