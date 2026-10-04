@@ -39,7 +39,6 @@ apis:
   - name: Census.gov
     description: "The US Census Bureau provides various APIs and data sets on demographics and businesses"
     humanURL: https://www.census.gov/data/developers/data-sets.html
-    baseURL: https://www.census.gov/data/developers/data-sets.html
     tags:
       - Government
     properties:
